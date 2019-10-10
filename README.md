@@ -46,15 +46,15 @@ Select the answer below that fills in the three blanks, in order, with the corre
 (X) 0.0025
 
 
-?: Question 4
+?: We want to compare the means of two independent samples of unequal size. What kind of test do we need to perform?
 
-( ) choice 
+( ) One-sample t-test
 
-( ) choice 
+( ) Paired two-sample t-test
 
-( ) choice 
+( ) Unpaired two-sample t-test
 
-(X) choice
+(X) Welch's t-test
 
 
 ?: Question 5
