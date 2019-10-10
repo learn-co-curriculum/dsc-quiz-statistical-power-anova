@@ -66,7 +66,9 @@ Select the answer below that fills in the three blanks, in order, with the corre
 Select all features that had a significant effect at $\alpha = 0.01$ on the espresso foam index according to your results. 
 
 [ ] `tempC` had a significant effect on the espresso foam index.
+
 [X] `prssBar` had a significant effect on the espresso foam index.
+
 [ ] No features had a significant effect on the espresso foam index. 
 
 ???
