@@ -6,9 +6,7 @@ While we recommend using Python to find the answers to these questions, it is no
 
 # Quiz - Statistical Power and ANOVA
 
-?: You want to determine the number of observations `n` needed to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. 
-
-You've been provided with incomplete code below to determine `n`.
+?: You want to determine the number of observations `n` needed to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. You've been provided with incomplete code below to determine `n`.
 
 ```python
 from statsmodels.stats.power import TTestPower, TTestIndPower
@@ -18,13 +16,13 @@ n = power_analysis.solve_power(effect_size=0.3, power=_ _ _, alpha = _ _ _)
 
 Select the answer below that fills in the three blanks, in order, with the correct answer.
 
-( ) TTestIndPower(),  0.1, 0.05 
+( ) `TTestIndPower()`,  `0.1`, `0.05` 
 
-( ) TTestPower(), 0.9, 0.05 
+( ) `TTestPower()`, `0.9`, `0.05` 
 
-( ) TTestIndPower(), 0.95, 0.1 
+( ) `TTestIndPower()`, `0.95`, `0.1` 
 
-(X) TTestIndPower(), 0.9, 0.05 
+(X) `TTestIndPower()`, `0.9`, `0.05` 
 
 ?: Which of the following are true statements?
 
@@ -37,9 +35,7 @@ Select the answer below that fills in the three blanks, in order, with the corre
 [X] The power of a statistical test increases as the effect size increases, given the same sample size and $\alpha$. 
 
 
-?: You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis.
-
-What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
+?: You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis. What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
 
 ( ) 0.05  
 
