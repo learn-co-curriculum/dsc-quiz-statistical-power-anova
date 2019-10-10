@@ -48,25 +48,3 @@ What is the Bonferroni-corrected significance threshold you should use to contro
 ( ) 0.005 
 
 (X) 0.0025
-
-
-?: Question 4
-
-( ) choice 
-
-( ) choice 
-
-( ) choice 
-
-(X) choice
-
-
-?: Question 5
-
-( ) choice 
-
-( ) choice 
-
-(X) choice 
-
-( ) choice
