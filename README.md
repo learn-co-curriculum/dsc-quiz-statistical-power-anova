@@ -57,12 +57,18 @@ Select the answer below that fills in the three blanks, in order, with the corre
 (X) Welch's t-test
 
 
-?: Question 5
+?: You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature (`tempC`) and brewing pressure (`prssBar`) on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three possible different possible brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
 
-( ) choice 
+| |sum_sq |df |F |PR(>F)|
+|--|--|--|--|--|
+|C(tempC)|4003.852337 | 2.0|5.549996 |0.006656 |
+|C(prssBar)|5310.375000| 1.0 |14.722102 |0.000351|
+|Residual|18035.383589|50.0|NaN|NaN|
 
-( ) choice 
+Select all features that had a significant effect at $\alpha = 0.01$ on the espresso foam index according to your results. 
 
-(X) choice 
+[ ] `tempC` had a significant effect on the espresso foam index.
+[X] `prssBar` had a significant effect on the espresso foam index.
+[ ] No features had a significant effect on the espresso foam index. 
 
-( ) choice
+???
