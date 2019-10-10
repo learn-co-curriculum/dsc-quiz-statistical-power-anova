@@ -6,25 +6,36 @@ While we recommend using Python to find the answers to these questions, it is no
 
 # Quiz - Statistical Power and ANOVA
 
-?: Question 1 
+?: You want to determine the number of observations `n` that you need to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. 
 
-( ) choice 
+You've been provided with incomplete code below to determine `n`.
 
-( ) choice 
+```python
+from statsmodels.stats.power import TTestPower, TTestIndPower
+power_analysis = _ _ _
+n = power_analysis.solve_power(effect_size=0.3, power=_ _ _, alpha = _ _ _) 
+```
 
-( ) choice 
+Select the answer below that fills in the three blanks, in order, with the correct answer.
 
-( ) choice 
+( ) TTestIndPower(),  0.1, 0.05 
 
-?: Question 2
+( ) TTestPower(), 0.9, 0.05 
 
-( ) choice 
+( ) TTestIndPower(), 0.95, 0.1 
 
-( ) choice 
+(X) TTestIndPower(), 0.9, 0.05 
 
-( ) choice 
+?: Which of the following are true statements?
 
-( ) choice
+[X] The power of a statistical test increases as the sample size increases, given the same $\alpha$ and effect size.
+
+[ ] The power of a statistical test increases as the effect size decreases, given the same $\alpha$ and sample size.
+
+[X] The power of a statistical test increases as the significance threshold $\alpha$ increases, given the same sample size and effect size. 
+
+[X] The power of a statistical test increases as the effect size increases, given the same sample size and $\alpha$. 
+
 
 ?: Question 3
 
