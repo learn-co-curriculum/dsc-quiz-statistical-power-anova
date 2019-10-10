@@ -58,7 +58,7 @@ What is the Bonferroni-corrected significance threshold you should use to contro
 
 ( ) choice 
 
-( ) choice
+(X) choice
 
 
 ?: Question 5
@@ -67,6 +67,6 @@ What is the Bonferroni-corrected significance threshold you should use to contro
 
 ( ) choice 
 
-( ) choice 
+(X) choice 
 
 ( ) choice
