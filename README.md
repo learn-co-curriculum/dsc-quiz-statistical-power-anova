@@ -37,15 +37,17 @@ Select the answer below that fills in the three blanks, in order, with the corre
 [X] The power of a statistical test increases as the effect size increases, given the same sample size and $\alpha$. 
 
 
-?: Question 3
+?: You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis.
 
-( ) choice 
+What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
 
-( ) choice 
+( ) 0.05  
 
-( ) choice 
+( ) 0.01 
 
-( ) choice
+( ) 0.005 
+
+(X) 0.0025
 
 
 ?: Question 4
