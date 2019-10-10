@@ -10,8 +10,8 @@ While we recommend using Python to find the answers to these questions, it is no
 
 ```python
 from statsmodels.stats.power import TTestPower, TTestIndPower
-power_analysis = _ _ _
-n = power_analysis.solve_power(effect_size=0.3, power=_ _ _, alpha = _ _ _) 
+power_analysis = ___
+n = power_analysis.solve_power(effect_size=0.3, power=___, alpha = ___) 
 ```
 
 Select the answer below that fills in the three blanks, in order, with the correct answer.
