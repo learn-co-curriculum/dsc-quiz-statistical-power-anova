@@ -4,7 +4,7 @@ While we recommend using Python to find the answers to these questions, it is no
 
 ???
 
-# Quiz - Statistical Power and ANOVA
+# Statistical Power, Welch's t-test, ANOVA
 
 ?: Question 1
 
