@@ -74,7 +74,7 @@ We want to compare the means of two independent samples of unequal size. What ki
 
 You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature, `tempC`, and brewing pressure, `prssBar`, on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three  possible different brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
 
-![ANOVA table](images/anova_table.png)
+![ANOVA table](https://raw.githubusercontent.com/learn-co-curriculum/dsc-quiz-statistical-power-anova/master/images/anova_table.png)
 
 Select all features that had a significant effect at $\alpha = 0.01$ on the espresso foam index according to your results. 
 
