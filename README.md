@@ -6,7 +6,9 @@ While we recommend using Python to find the answers to these questions, it is no
 
 # Quiz - Statistical Power and ANOVA
 
-?: You want to determine the number of observations `n` needed to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. You've been provided with incomplete code below to determine `n`.
+?: Question 1
+
+You want to determine the number of observations `n` needed to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. You've been provided with incomplete code below to determine `n`.
 
 ```python
 from statsmodels.stats.power import TTestPower, TTestIndPower
@@ -24,7 +26,9 @@ Select the answer below that fills in the three blanks, in order, with the corre
 
 (X) `TTestIndPower()`, `0.9`, `0.05` 
 
-?: Which of the following are true statements?
+?: Question 2 
+
+Which of the following are true statements?
 
 [X] The power of a statistical test increases as the sample size increases, given the same $\alpha$ and effect size.
 
@@ -35,7 +39,9 @@ Select the answer below that fills in the three blanks, in order, with the corre
 [X] The power of a statistical test increases as the effect size increases, given the same sample size and $\alpha$. 
 
 
-?: You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis. What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
+?: Question 3 
+
+You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis. What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
 
 ( ) 0.05  
 
@@ -46,7 +52,9 @@ Select the answer below that fills in the three blanks, in order, with the corre
 (X) 0.0025
 
 
-?: We want to compare the means of two independent samples of unequal size. What kind of test do we need to perform?
+?: Question 4
+
+We want to compare the means of two independent samples of unequal size. What kind of test do we need to perform?
 
 ( ) One-sample t-test
 
@@ -57,9 +65,11 @@ Select the answer below that fills in the three blanks, in order, with the corre
 (X) Welch's t-test
 
 
-?: You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature, `tempC`, and brewing pressure, `prssBar`, on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three  possible different brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
+?: Question 5 
 
-![ANOVA table](images/anova_table.png | width = 500)
+You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature, `tempC`, and brewing pressure, `prssBar`, on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three  possible different brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
+
+![ANOVA table](images/anova_table.png)
 
 Select all features that had a significant effect at $\alpha = 0.01$ on the espresso foam index according to your results. 
 
