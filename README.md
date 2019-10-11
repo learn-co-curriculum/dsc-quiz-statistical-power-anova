@@ -8,6 +8,7 @@ While we recommend using Python to find the answers to these questions, it is no
 
 ?: Question 1
 <br/><br/>
+
 You want to determine the number of observations `n` needed to detect an effect size of 0.3 given a Type I error rate of 0.05 and a Type II error rate of 0.1 when performing an unpaired two-sample t-test. You've been provided with incomplete code below to determine `n`.
 
 ```python
