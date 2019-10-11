@@ -29,6 +29,7 @@ Select the answer below that fills in the three blanks, in order, with the corre
 
 ?: Question 2 
 
+
 Which of the following are true statements?
 
 [X] The power of a statistical test increases as the sample size increases, given the same $\alpha$ and effect size.
@@ -41,6 +42,7 @@ Which of the following are true statements?
 
 
 ?: Question 3 
+
 
 You are performing 20 statistical tests simultaneously, and have set a signficance threshold of $\alpha = 0.05$ to reject the null hypothesis. What is the Bonferroni-corrected significance threshold you should use to control for Type I errors? 
 
@@ -55,6 +57,7 @@ You are performing 20 statistical tests simultaneously, and have set a signfican
 
 ?: Question 4
 
+
 We want to compare the means of two independent samples of unequal size. What kind of test do we need to perform?
 
 ( ) One-sample t-test
@@ -67,6 +70,7 @@ We want to compare the means of two independent samples of unequal size. What ki
 
 
 ?: Question 5 
+
 
 You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature, `tempC`, and brewing pressure, `prssBar`, on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three  possible different brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
 
