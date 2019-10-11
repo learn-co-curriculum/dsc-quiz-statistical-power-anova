@@ -57,7 +57,7 @@ Select the answer below that fills in the three blanks, in order, with the corre
 (X) Welch's t-test
 
 
-?: You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature (`tempC`) and brewing pressure (`prssBar`) on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three possible different possible brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
+?: You're trying to test different ways of brewing espresso and want to assess the influence of brewing temperature, `tempC`, and brewing pressure, `prssBar`, on the espresso foam index, a measure of espresso foam quality. In your experiment, there are three  possible different brewing temperatures and two possible different brewing pressures. You use Python and `statsmodels` to generate an ANOVA table and obtain the following result: 
 
 <p align="center">
 <img src="images/anova_table.png" width="500">
